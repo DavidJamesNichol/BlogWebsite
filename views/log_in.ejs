@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+    <!-- sign_up Form -->
+    <form method="POST" action="/api/log_in" class="col-sm-2 offset-sm-5 h-100 p-0">
+		<div class="spacerVert"></div>
+	  <label for="username">Username</label>
+      <input type="text" class="col-12" id="username" name="username" placeholder="Username">
+		<div class="spacerVert"></div>
+	  <label for="password">Password</label>
+      <input type="text" class="col-12" id="password" name="password" placeholder="Password">
+		<div class="spacerVert"></div>
+      <input type="submit"value="Log In" method="POST" action="/api/log_in">
+    </form>
+
+  <% include partials/footer %>

@@ -1,0 +1,171 @@
+<% include partials/header %>
+
+  <!--main conent-->
+  <main class="container-fluid p-0">
+
+    <div class="container-fluid">
+
+      <h1 class="welcome"><span class="welcome0">Welcome<br>to the<br></span><span
+          class="welcome1">&ltTreeManBlog&gt</span></h1>
+
+      <h2 class="welcome-details text-center welcome0">
+        -Insight from a leading arborist<br>
+        -Daily updates on advances in arboriculture<br>
+        -Unique species showcase every Tuesday and Friday!</h2>
+
+    </div>
+
+    <div class="promo container-fluid">
+
+      <h3 class="promo1 welcome0 text-center">
+        Get more with <span class="welcome1">Premium Access!</span></h3>
+
+      <h2 class="welcome-details text-center">
+        -Three day early access to all posts<br>
+        -Access to private counseling with me<br>
+        -Receive a PDF of all my future work charge free!</h2>
+
+    </div>
+
+    <!--request forms-->
+    <div class="w-100 row">
+
+      <input type="text" name="Name" id="" class="col-8 offset-2 col-md-6 offset-md-3 rounded1 mb-2" placeholder="Name Here">
+
+      <input type="text" name="Name" id="" class="col-8 offset-2 col-md-6 offset-md-3 rounded1 mb-2"
+        placeholder="Email Here">
+
+      <input type="submit" value="Click Me!" class="col-4 offset-4 lightgrey mb-2">
+    </div>
+
+    <div class="subtitles d-flex conatiner-fluid">
+      <div class="row w-100 container-fluid  m-0 p-0">
+
+        <div class="d-flex float-left pl-2 col-6 justify-content-center pt-3">
+          <h5>Recently Featured</h5>
+        </div>
+
+        <div class="d-flex float-right pr-2 col-6 justify-content-center pt-3">
+          <h5>Most Popular</h5>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Links to articles-->
+    <div class="d-flex articles">
+      <div class="row">
+        <div class="d-flex float-left pl-2 col-6 justify-content-center card-div">
+          <div class="card card1 link">
+            <img src="images/sakura.jpeg" alt="" class="card-img-top contain link">
+            <div class="card-body p-0">
+			  <a href="sakuraTree">
+                <h2 class="card-title link">Sakura Tree</h2>
+                        <% include partials/dummy %>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="spacer"></div>
+
+          <div class="card card1 link">
+            <img src="images/coconut.jpeg" alt="" class="card-img-top contain link">
+              <div class="card-body p-0 link">
+			  <a  href="coconutTrees">
+                <h2 class="card-title link">Coconut Trees in Industry</h2>
+                                        <% include partials/dummy %>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+
+
+        <!--Links to smaller articles row 1-->
+        <div class="d-block float-right pr-2 col-6 justify-content-center card-div">
+          <div class="row row2">
+            <div class="card card2 link">
+              <img src="images/physalis.jpeg" alt="" class="card-img-top contain link">
+                <div class="card-body p-0 link">
+				<a href="physalisTree">
+                  <h2 class="card-title link">Physalis Tree Never Stops</h2>
+					<% include partials/dummy %>
+				</a>                         
+              </div>
+            </div>
+
+
+            <div class="spacer2"></div>
+
+            <div class="card card2 link">
+              <img src="images/stump.jpeg" alt="" class="card-img-top contain link">
+                <div class="card-body p-0 link">
+				<a href="treeAge">
+                  <h2 class="card-title link">Tree Age and How to Tell</h2>
+                                          <% include partials/dummy %>
+                </div>
+              </a>
+            </div>
+
+            <div class="spacer2"></div>
+
+            <div class="card card2 link">
+              <img src="images/Orange tree.jpeg" alt="" class="card-img-top contain link">
+                <div class="card-body p-0 link">
+				<a href="orangeTree">
+                  <h2 class="card-title link">Orange Tree Hybridization</h2>
+                                         <% include partials/dummy %>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="spacer2"></div>
+
+          <!--links to smaller articles row 2-->
+          <div class="row row2">
+            <div class="card card2 link">
+              <img src="images/apple tree.jpeg" alt="" class="card-img-top contain link">
+                <div class="card-body p-0 link">
+              	<a href="appleTree">
+                  <h2 class="card-title link">Apple Tree Picking</h2>
+                                          <% include partials/dummy %>
+                </div>
+              </a>
+            </div>
+
+            <div class="spacer2"></div>
+
+            <div class="card card2 link">
+              <img src="images/cherry blossom.jpeg" alt="" class="card-img-top contain link">
+                <div class="card-body p-0 link">
+				<a href="cherryBlossoms">
+                  <h2 class="card-title link">Cherry Blossoms</h2>
+                                         <% include partials/dummy %>
+                </div>
+              </a>
+            </div>
+
+            <div class="spacer2"></div>
+
+            <div class="card card2 link">
+              <img src="images/Maple.jpeg" alt="" class="card-img-top contain link">
+                <div class="card-body p-0 link">
+				<a href="mapleTree">
+                  <h2 class="card-title link">Maple Tree Life Cycle</h2>
+                                         <% include partials/dummy %>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+  <% include partials/footer %>
